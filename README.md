@@ -1,2 +1,2 @@
 # SimpleCacheBitrix
-Обертка над кэшем битрикса, реализующая интрефейс Psr\SimpleCache
+Обертка над классом Bitrix\Main\Data\Cache битрикса, реализующая интрефейс Psr\SimpleCache
