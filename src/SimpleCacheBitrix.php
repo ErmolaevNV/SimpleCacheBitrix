@@ -1,11 +1,9 @@
 <?php
 
 
-namespace PESKOT\lib;
-
+namespace ErmolaevNV;
 
 use Bitrix\Main\Data\Cache;
-use CPHPCache;
 use MatthiasMullie\Scrapbook\Psr16\InvalidArgumentException;
 use Psr\SimpleCache\CacheInterface;
 
