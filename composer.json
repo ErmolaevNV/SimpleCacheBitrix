@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ErmolaevNV\\SimpleCacheBitrix\\" : "src/"
+            "ErmolaevNV\\" : "src/"
         }
     }
 }
