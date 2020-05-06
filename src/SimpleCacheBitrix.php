@@ -68,9 +68,13 @@ class SimpleCacheBitrix implements CacheInterface
         if ($ttl === null) {
             $ttl = $this->ttl;
         }
+        $obCache->forceRewriting(true);
+
         $obCache->InitCache($ttl, $key, $this->initDir, $this->baseDir);
         $obCache->StartDataCache();
         $obCache->EndDataCache([$this->valNamePrefix => $value]);
+
+        $obCache->forceRewriting(false);
         return true;
     }
 
