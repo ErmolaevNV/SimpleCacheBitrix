@@ -18,7 +18,7 @@ class SimpleCacheBitrix implements CacheInterface
 
     protected $valNamePrefix = "val";
 
-    public function __construct($ttl = PHP_INT_MAX, $initDir = '', $basedir = "cache")
+    public function __construct($ttl = 7 * 60 * 60 * 60, $initDir = '', $basedir = "cache")
     {
         $this->ttl = $ttl;
         $this->baseDir = $basedir;
